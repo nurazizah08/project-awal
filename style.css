@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.nav-brand {
+  justify-content: right;
+}
+
+.nav-brand h1 {
+  font-size: 35px;
+}
+
+span {
+  color: darkred;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+header .nav-menu ul {
+  list-style: none;
+}
+
+header .nav-menu ul li {
+  display: inline;
+  color: darkred;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* header .nav-menu ul li:hover {
+    transi
+} */
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 8px 25px; */
+}
+
+button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 10px 25px;
+}
+
+button a {
+  color: white;
+  font-size: 14px;
+}
+
+button a:hover {
+  color: white;
+}
+
+.nav-button li {
+  list-style: none;
+  margin: 3px;
+  padding: 4px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+a:hover {
+  color: darkred;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+}
+
+.hero span {
+  color: orange;
+}
+
+.hero-tagline {
+  /* background-color: bisque; */
+  width: 50%;
+  text-align: left;
+}
+
+.hero-image {
+  width: 50%;
+  text-align: left;
+}
+
+.fc-image img {
+  display: flex;
+  width: 200px;
+  height: 180px;
+  justify-content: center;
+  margin: 50px;
+}
+
+.food-menu {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-card {
+  /* margin: 20px; */
+  box-sizing: border-box;
+  box-shadow: 0px 1px 9px 8px #eee;
+}
+
+.food-image {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+}
+
+.img-food-menu {
+  width: 200px;
+  height: 200px;
+}
+
+.fc-disc {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.fc-disk p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.fc-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.fc-price p {
+  font-size: larger;
+  color: darkred;
+}
+
+.btn-order {
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.elemen {
+  justify-content: center;
+  padding: 4px;
+}
+
+.footer {
+  background-color: black;
+  color: #f1e3e3;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-desc h3 {
+  margin-bottom: 10px;
+}
+
+.footer-desc p {
+  margin: 0;
+  padding: 16px;
+}
+
+.footer-follow img {
+  display: inline;
+  justify-content: center;
+  margin-right: 10px;
+  width: 26px;
+  height: 32px;
+}
